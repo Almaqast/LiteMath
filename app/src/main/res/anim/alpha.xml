@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- duration - время прозрачности за сколько проигрывается
+         fromAlpha - начальное значение прозрачности 0.0 прозрачный
+         toAlpha - конечное знач прозрачности 1.0 не прозрачный -->
+    <alpha
+        android:duration="200"
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0">
+    </alpha>
+</set>

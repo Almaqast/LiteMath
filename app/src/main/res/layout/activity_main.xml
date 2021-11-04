@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/mainBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backgraund" />
+
+    <LinearLayout
+        android:id="@+id/cont1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/cont2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnLvlMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_lvl_menu"
+                android:background="@drawable/style_btn_lvl_true_or_false"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:textSize="24sp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:textColor="@color/colorWhite"
+            />
+            <Button
+                android:id="@+id/btnArcana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_arcana"
+                android:background="@drawable/style_btn_lvl_true_or_false"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:textSize="24sp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:textColor="@color/colorWhite"
+                />
+
+<!--            <Button-->
+<!--                android:id="@+id/btnSetting"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/txt_setting"-->
+<!--                android:background="@drawable/style_btn_lvl_true_or_false"-->
+<!--                android:paddingRight="5dp"-->
+<!--                android:paddingLeft="5dp"-->
+<!--                android:textSize="24sp"-->
+<!--                android:layout_marginLeft="40dp"-->
+<!--                android:layout_marginRight="40dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:textColor="@color/colorWhite"-->
+<!--                />-->
+
+            <Button
+                android:id="@+id/btnAuthor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_author"
+                android:background="@drawable/style_btn_lvl_true_or_false"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:textSize="24sp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:textColor="@color/colorWhite"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

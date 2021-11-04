@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Стиль и обводка кнопки в не нажатом состоянии -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="0dp" android:color="@color/colorBlack90"/> <!-- ширина и цвет рамки -->
+    <corners android:radius="20dp" /> <!-- сглаживание углов -->
+
+
+</shape>
